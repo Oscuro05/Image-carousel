@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-slide img {
+  max-height: 100vh;
+  min-width: 100vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+#prevbtn{
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 2%;
+  width: 5%;
+  height: 10%;
+  color: white;
+  background: rgba(146, 146, 146, 0.4);
+  border-radius: 20%;
+
+}
+
+#nextbtn{
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  width: 5%;
+  height: 10%;
+  background: rgba(146, 146, 146, 0.4);
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+.name{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.name h1{
+  font-size: 500%;
+  position: absolute;
+}
+
+.name .white   {
+  color: white;
+}
+
+.Ultra{
+  left: 5%;
+  top: 20%;
+}
+
+.plus{
+  bottom: 10%;
+  left: 5%;
+}
+
+.book{
+  top: 1%;
+  left: 5%;
+}
+
+.flip{
+  left: 40%;
+  top: 0;
+}
+
+.fold{
+  left: 5%;
+  top: 20%;
+}
+
+.logo{
+  position: absolute;
+  background: rgb(55, 55, 55, 0.3);
+  border-radius: 20% 20%;
+  transform: rotateX(20deg);
+  top: 3%;
+  left: 2%;
+  width: 10%;
+  height: 19%;
+
+}
+
+.logo img{
+  height: 100%;
+  width: 100%;
+}
+
+
